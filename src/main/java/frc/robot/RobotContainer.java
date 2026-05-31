@@ -123,7 +123,7 @@ public class RobotContainer {
       e.printStackTrace();
       Alert alert = new Alert("auto failed to load", AlertType.kError);
       alert.set(true);
-      tempChooser = new LoggedDashboardChooser<>("Auto Choices");
+      tempChooser = new LoggedDashboardChooser<Command>("Auto Choices");
     }
     autoChooser = tempChooser;
 
